@@ -1,0 +1,13 @@
+.buttons{
+    display: flex;
+    overflow-x: auto;
+}
+.buttons::-webkit-scrollbar{
+    width: 0px;
+}
+.buttons li{
+    margin: 10px;
+    background-color: #434344;
+    color: white;
+    font-size: 17px;
+}

@@ -1,0 +1,64 @@
+.videoContent{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.box{
+    cursor: pointer;
+    width: 400px;
+    height: auto;
+}
+.thumbnail{
+    position: relative;
+}
+.thumbnail img{
+    width: 400px;
+    border-radius: 20px;
+}
+.thumbnail span{
+    position: absolute;
+    color: white;
+    top: 5%;
+    right: 15px;
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+.title {
+    font-size: 15px;
+    margin: 5px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 20px;
+}
+.aboutChannel{
+    display: flex;
+    align-items: center;
+}
+.aboutChannel img{
+    width: 50px;
+    border-radius: 50%;
+}
+.nameAndViews{
+    color: rgb(189, 184, 184);
+}
+
+@media (max-width : 768px){
+    .box{
+        width: 320px;
+    }
+    .thumbnail img{
+        width: 320px;
+    }
+    .title{
+        margin: 0;
+    }
+    .aboutChannel img{
+        width: 40px;
+    }
+}

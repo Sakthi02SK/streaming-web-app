@@ -1,0 +1,48 @@
+.sideBar::-webkit-scrollbar{
+    width: 0px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.option li{
+    padding: 15px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.option li i{
+    margin-right: 15px;
+}
+.option li:nth-child(1){
+    color: black;
+    background-color: rgb(213, 204, 121);
+}
+nav li:hover{
+    color: black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(213, 204, 121);
+}
+nav p{
+    margin-top: 25px;
+    padding: 0 20px;
+}
+.subList li{
+    padding: 10px 20px;
+}
+.subList li img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+@media (max-width : 768px){
+    .sideBar{
+        display: none;
+    }
+}
+
+
+
+
