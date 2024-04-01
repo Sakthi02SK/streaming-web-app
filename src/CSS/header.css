@@ -1,0 +1,56 @@
+header{
+    height: 100px;
+}
+.logo{
+    width: 150px;
+}
+header i{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+header i:hover{
+    background-color: rgb(213, 204, 121);
+    color: black;
+}
+.inputBox {
+    position: relative;
+    margin-right: 50px;
+    width: 100%;
+}
+.inputBox input::placeholder{
+    color: white;
+}
+.inputBox input{
+    outline: none;
+    width: 500px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: rgb(67, 67, 67);
+}
+.searchIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:  rgb(67, 67, 67);
+}
+@media (max-width: 1000px) {
+    .inputBox input {
+        width: 200px;
+    }
+}
+@media (max-width: 700px) {
+    .inputBox {
+        margin-right: 0;
+    }
+    .logo{
+        width: 80px;
+    }
+    .inputBox input {
+        width: 150px;
+    }
+}
